@@ -1,0 +1,3302 @@
+var eventosReales = [
+    {
+      sector: "La Valdramina",
+      y: "-79.4593048",
+      x: "-1.0219318",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4617081",
+      x: "-1.025815",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4690251",
+      x: "-1.0030735",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4702268",
+      x: "-1.0083727",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.4928217",
+      x: "-1.0441798",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4467306",
+      x: "-1.0047255",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4837666",
+      x: "-1.0469474",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4899464",
+      x: "-1.0462179",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4900751",
+      x: "-1.0573311",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4927788",
+      x: "-1.0565588",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.467416",
+      x: "-1.036606",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4714499",
+      x: "-1.034976",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4725227",
+      x: "-1.0270379",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4673944",
+      x: "-1.0285934",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4671583",
+      x: "-1.0256434",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4677913",
+      x: "-1.0252465",
+      evento: "Robo_a_carros"
+    },
+    {
+      sector: "Control",
+      y: "-79.4676304",
+      x: "-0.9967444",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4694328",
+      x: "-0.9948993",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4704199",
+      x: "-0.9948135",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4716001",
+      x: "-0.9926681",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4717503",
+      x: "-0.998804",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4729519",
+      x: "-0.9983106",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4726729",
+      x: "-0.9976026",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4736814",
+      x: "-0.997667",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4719648",
+      x: "-1.0018077",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4777584",
+      x: "-1.0036956",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4729733",
+      x: "-0.9923463",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4732094",
+      x: "-0.9914023",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4733596",
+      x: "-0.9915095",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4741106",
+      x: "-0.9915739",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4708061",
+      x: "-0.9903725",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Control",
+      y: "-79.4704628",
+      x: "-0.9825845",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4438338",
+      x: "-1.0292692",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4522023",
+      x: "-1.0335171",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4530821",
+      x: "-1.034976",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4532967",
+      x: "-1.0386876",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4618154",
+      x: "-1.0255361",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4621158",
+      x: "-1.027467",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4608927",
+      x: "-1.0285612",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4608927",
+      x: "-1.0274885",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4639611",
+      x: "-1.0304062",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4640684",
+      x: "-1.0302346",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.450947",
+      x: "-1.0282072",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4555283",
+      x: "-1.0315755",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4531464",
+      x: "-1.0327662",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4526744",
+      x: "-1.0331846",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4572234",
+      x: "-1.0385481",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4571376",
+      x: "-1.0386017",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.457041",
+      x: "-1.0386446",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4617081",
+      x: "-1.0411226",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4617939",
+      x: "-1.0054335",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4648838",
+      x: "-1.0060556",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4644976",
+      x: "-1.0044251",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.46733",
+      x: "-1.0046825",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4685102",
+      x: "-1.0055836",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4699907",
+      x: "-1.007772",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.470892",
+      x: "-1.010325",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4665575",
+      x: "-1.0136719",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4651413",
+      x: "-1.0149806",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.476943",
+      x: "-1.0097243",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4657743",
+      x: "-1.0208484",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4652164",
+      x: "-1.0231118",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.467566",
+      x: "-1.0181773",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4595194",
+      x: "-1.0217816",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4561291",
+      x: "-1.0264372",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.453125",
+      x: "-1.0236482",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4564939",
+      x: "-1.0211595",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4550347",
+      x: "-1.0201296",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4415808",
+      x: "-1.025622",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4409156",
+      x: "-1.024914",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4416881",
+      x: "-1.0246351",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4414949",
+      x: "-1.0231333",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4414949",
+      x: "-1.0231333",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4368386",
+      x: "-1.0213311",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.4754195",
+      x: "-1.0231118",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.475162",
+      x: "-1.0238198",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.4940448",
+      x: "-1.0435791",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.4917917",
+      x: "-1.0435791",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.4914484",
+      x: "-1.0449951",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4634891",
+      x: "-1.0221035",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4626307",
+      x: "-1.0215671",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4624805",
+      x: "-1.0198722",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4602704",
+      x: "-1.0152381",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4532752",
+      x: "-1.0158602",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4468593",
+      x: "-1.0133072",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4461727",
+      x: "-1.0099603",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.445529",
+      x: "-1.0080723",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4459581",
+      x: "-1.0041247",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4432974",
+      x: "-1.0079865",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4445848",
+      x: "-0.9921961",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4442415",
+      x: "-0.9920244",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4446277",
+      x: "-0.9929256",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4440269",
+      x: "-0.992668",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4423962",
+      x: "-1.0024942",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4419241",
+      x: "-1.002151",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4404221",
+      x: "-0.9991044",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4813633",
+      x: "-1.0503371",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4811058",
+      x: "-1.0495219",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4881439",
+      x: "-1.0532978",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4882727",
+      x: "-1.0526113",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4866848",
+      x: "-1.0578031",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4893456",
+      x: "-1.0580177",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4907188",
+      x: "-1.0602489",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4671583",
+      x: "-1.0446733",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4681025",
+      x: "-1.0448449",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4742823",
+      x: "-1.0483634",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4755268",
+      x: "-1.0454457",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4768572",
+      x: "-1.0458747",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4829941",
+      x: "-1.0435147",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4834661",
+      x: "-1.0433002",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4732523",
+      x: "-1.0408115",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4778872",
+      x: "-1.0365636",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.46969",
+      x: "-1.032702",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4719648",
+      x: "-1.024678",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4703984",
+      x: "-1.0232727",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4677591",
+      x: "-1.0295588",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4667721",
+      x: "-1.0293872",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4663966",
+      x: "-1.0306744",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4677377",
+      x: "-1.0275957",
+      evento: "Robo_a_domicilio"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.446044",
+      x: "-0.9973022",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Control",
+      y: "-79.4678879",
+      x: "-0.9985895",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4625664",
+      x: "-1.025622",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4620728",
+      x: "-1.027939",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4601631",
+      x: "-1.0306637",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4614506",
+      x: "-1.0312859",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4634247",
+      x: "-1.0344718",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4605279",
+      x: "-1.0342573",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4577706",
+      x: "-1.0313824",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4576418",
+      x: "-1.0312537",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.45467",
+      x: "-1.0296339",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4550884",
+      x: "-1.0329915",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4531465",
+      x: "-1.0329271",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.453243",
+      x: "-1.0328842",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4530928",
+      x: "-1.0339033",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4672656",
+      x: "-1.00612",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.467802",
+      x: "-1.0061414",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4740891",
+      x: "-1.0084585",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4667721",
+      x: "-1.0139294",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4669652",
+      x: "-1.0133501",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4765568",
+      x: "-1.0074716",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.457159",
+      x: "-1.0240987",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4372463",
+      x: "-1.0230689",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.4878006",
+      x: "-1.0376363",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4466448",
+      x: "-1.0123632",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4463873",
+      x: "-1.0103036",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4456577",
+      x: "-1.003052",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4829941",
+      x: "-1.0507233",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.480505",
+      x: "-1.0446733",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4816637",
+      x: "-1.0439009",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4763422",
+      x: "-1.0384945",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4707417",
+      x: "-1.0232727",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4689071",
+      x: "-1.0279605",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4693363",
+      x: "-1.0285397",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4687569",
+      x: "-1.030417",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4685853",
+      x: "-1.0271774",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4672656",
+      x: "-1.0263621",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4672763",
+      x: "-1.0260403",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4669867",
+      x: "-1.0249998",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4677055",
+      x: "-1.0250641",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.46733",
+      x: "-1.024324",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4660586",
+      x: "-1.0246055",
+      evento: "Robo_a_motos"
+    },
+    {
+      sector: "Control",
+      y: "-79.4671154",
+      x: "-0.9937408",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.466815",
+      x: "-0.9922604",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4697976",
+      x: "-0.9939339",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.471128",
+      x: "-0.993419",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4716859",
+      x: "-0.9932473",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4715786",
+      x: "-0.9956932",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4718361",
+      x: "-0.9962939",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4704628",
+      x: "-0.9972164",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4733167",
+      x: "-0.9974953",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4736171",
+      x: "-0.9966801",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4740891",
+      x: "-0.9967873",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4761491",
+      x: "-1.0024084",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4767284",
+      x: "-1.0026229",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4767069",
+      x: "-1.0027731",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4769645",
+      x: "-1.0024727",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4778657",
+      x: "-1.0007779",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4717718",
+      x: "-0.9895571",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4716859",
+      x: "-0.9900292",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4703341",
+      x: "-0.9891495",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4724369",
+      x: "-0.987991",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4666004",
+      x: "-0.9889135",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4550991",
+      x: "-1.0223824",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4559145",
+      x: "-1.0221249",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.454155",
+      x: "-1.0219962",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4667077",
+      x: "-0.9821768",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4707417",
+      x: "-0.9814903",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4719648",
+      x: "-0.9817907",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4460011",
+      x: "-1.0278103",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4469237",
+      x: "-1.028411",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4454217",
+      x: "-1.0267805",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4527388",
+      x: "-1.0360058",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4519663",
+      x: "-1.0339462",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4506359",
+      x: "-1.0410904",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4635105",
+      x: "-1.0263514",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4638324",
+      x: "-1.0282823",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4641542",
+      x: "-1.0281965",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4610643",
+      x: "-1.0263943",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4602275",
+      x: "-1.0262656",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4603562",
+      x: "-1.0260939",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4614935",
+      x: "-1.0268877",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4620299",
+      x: "-1.0284968",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4604635",
+      x: "-1.0283681",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.460485",
+      x: "-1.0295481",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4603777",
+      x: "-1.0305993",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4609785",
+      x: "-1.0315433",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4621372",
+      x: "-1.0308997",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4627595",
+      x: "-1.0308997",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4628882",
+      x: "-1.0324873",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4628453",
+      x: "-1.0344825",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4627326",
+      x: "-1.0345093",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4627166",
+      x: "-1.0349116",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4603884",
+      x: "-1.0378723",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4594121",
+      x: "-1.0341178",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4584894",
+      x: "-1.0335493",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4572771",
+      x: "-1.031436",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4576418",
+      x: "-1.0312537",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4589722",
+      x: "-1.0308139",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4589293",
+      x: "-1.0288079",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4583714",
+      x: "-1.0273919",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4571376",
+      x: "-1.0274027",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.457674",
+      x: "-1.0302346",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4567513",
+      x: "-1.0295695",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.456569",
+      x: "-1.0295052",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4561827",
+      x: "-1.0286363",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4556034",
+      x: "-1.0278639",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4550884",
+      x: "-1.0272739",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4525671",
+      x: "-1.0260725",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4523847",
+      x: "-1.026169",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4517088",
+      x: "-1.0257936",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4523418",
+      x: "-1.0256112",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4498956",
+      x: "-1.0263621",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4494557",
+      x: "-1.0238842",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4471061",
+      x: "-1.0273383",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4466662",
+      x: "-1.0263621",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4475353",
+      x: "-1.0250534",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4527602",
+      x: "-1.0277352",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4539189",
+      x: "-1.0299772",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4528782",
+      x: "-1.0335278",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4547665",
+      x: "-1.0345684",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4568264",
+      x: "-1.0330773",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4628453",
+      x: "-1.040715",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4669223",
+      x: "-1.0108399",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4670725",
+      x: "-1.0107755",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4668579",
+      x: "-1.0099389",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4670296",
+      x: "-1.0099603",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4682741",
+      x: "-1.010561",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4668794",
+      x: "-1.0087589",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4666433",
+      x: "-1.0085658",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.466579",
+      x: "-1.0086731",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.465549",
+      x: "-1.0080938",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4647336",
+      x: "-1.0088018",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4631672",
+      x: "-1.0083083",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4620728",
+      x: "-1.0082225",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4595838",
+      x: "-1.0091236",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.458468",
+      x: "-1.0063989",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4611502",
+      x: "-1.005412",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4609785",
+      x: "-1.0054978",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4639611",
+      x: "-1.0051545",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4641113",
+      x: "-1.005176",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4640899",
+      x: "-1.0060342",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4638968",
+      x: "-1.0067207",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4645834",
+      x: "-1.0065491",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4650126",
+      x: "-1.0063131",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4654846",
+      x: "-1.0060342",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4653988",
+      x: "-1.0051331",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4656134",
+      x: "-1.0042964",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4668365",
+      x: "-1.0061629",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4674373",
+      x: "-1.0059913",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4695187",
+      x: "-1.0039746",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4701624",
+      x: "-1.0050687",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4710422",
+      x: "-1.0053905",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4707632",
+      x: "-1.0083727",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4703555",
+      x: "-1.0095956",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4697976",
+      x: "-1.009853",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4719648",
+      x: "-1.0110974",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4654417",
+      x: "-1.0183275",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4656563",
+      x: "-1.0181773",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4658065",
+      x: "-1.0175551",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4660211",
+      x: "-1.0173621",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4666648",
+      x: "-1.0172119",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4672871",
+      x: "-1.0171475",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4676304",
+      x: "-1.0166112",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4672012",
+      x: "-1.0147446",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4670725",
+      x: "-1.0138436",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4670725",
+      x: "-1.0134788",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4682097",
+      x: "-1.0157101",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4709349",
+      x: "-1.0153025",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4708276",
+      x: "-1.0149806",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4658494",
+      x: "-1.0124061",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4671369",
+      x: "-1.0121272",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4669223",
+      x: "-1.0113763",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4667292",
+      x: "-1.0110545",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.467845",
+      x: "-1.0138436",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4677162",
+      x: "-1.0134574",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4731665",
+      x: "-1.0149592",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4718575",
+      x: "-1.0133072",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4719862",
+      x: "-1.0134788",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4719434",
+      x: "-1.012685",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4735956",
+      x: "-1.0118912",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4746685",
+      x: "-1.014573",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4657743",
+      x: "-1.0214169",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.465785",
+      x: "-1.0216958",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4658387",
+      x: "-1.0218245",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4658601",
+      x: "-1.0219211",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4658494",
+      x: "-1.0220927",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4651735",
+      x: "-1.0227364",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4653773",
+      x: "-1.0223609",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.465431",
+      x: "-1.0224253",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4655168",
+      x: "-1.0228329",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.467051",
+      x: "-1.0216422",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.467051",
+      x: "-1.0214706",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4674051",
+      x: "-1.0220284",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4675231",
+      x: "-1.0220176",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4679308",
+      x: "-1.0207626",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4668043",
+      x: "-1.0199258",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4687569",
+      x: "-1.0223395",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4697332",
+      x: "-1.0208377",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4697118",
+      x: "-1.0201189",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4686496",
+      x: "-1.0177697",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4681454",
+      x: "-1.0169437",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4708598",
+      x: "-1.0178662",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4706988",
+      x: "-1.0175766",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4711816",
+      x: "-1.0176731",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4718683",
+      x: "-1.0168579",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.47101",
+      x: "-1.0168257",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4724584",
+      x: "-1.0159353",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4721043",
+      x: "-1.0155492",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4726622",
+      x: "-1.0156994",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4728339",
+      x: "-1.0154955",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4732845",
+      x: "-1.0195719",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4724369",
+      x: "-1.0208591",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4738209",
+      x: "-1.0211273",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4739068",
+      x: "-1.0212346",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4590044",
+      x: "-1.0222536",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4593263",
+      x: "-1.0245707",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4591761",
+      x: "-1.0245921",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4581246",
+      x: "-1.024914",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4582534",
+      x: "-1.0252572",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4580388",
+      x: "-1.0252787",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4582319",
+      x: "-1.0257507",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4574594",
+      x: "-1.023734",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4568801",
+      x: "-1.0238412",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4568801",
+      x: "-1.0242918",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4564724",
+      x: "-1.0242274",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4539189",
+      x: "-1.02515",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4536185",
+      x: "-1.0245921",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4568586",
+      x: "-1.0213096",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4544554",
+      x: "-1.0199366",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4538331",
+      x: "-1.0207947",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4531036",
+      x: "-1.0212453",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.4761491",
+      x: "-1.0224253",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.488101",
+      x: "-1.0397174",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.4856548",
+      x: "-1.0399748",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.4920063",
+      x: "-1.0430642",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.4911695",
+      x: "-1.0432358",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Guaxacan",
+      y: "-79.493165",
+      x: "-1.0441154",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4617939",
+      x: "-1.0245921",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4628668",
+      x: "-1.0221464",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4619656",
+      x: "-1.0224038",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4601417",
+      x: "-1.0225754",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4618797",
+      x: "-1.0210951",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.459219",
+      x: "-1.0192929",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4531464",
+      x: "-1.0157316",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4466877",
+      x: "-1.0100461",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.443469",
+      x: "-1.0063131",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4440269",
+      x: "-1.0065276",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4432974",
+      x: "-1.0079865",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4418383",
+      x: "-1.007772",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4441986",
+      x: "-0.989879",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.488101",
+      x: "-1.0461321",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4864273",
+      x: "-1.0467758",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4842816",
+      x: "-1.0525683",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4815779",
+      x: "-1.0484921",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4791317",
+      x: "-1.0487924",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4852257",
+      x: "-1.0538556",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4866848",
+      x: "-1.053684",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.491663",
+      x: "-1.057417",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4895172",
+      x: "-1.0596053",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.489603",
+      x: "-1.0603347",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4666862",
+      x: "-1.0431286",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.466815",
+      x: "-1.0425279",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4668579",
+      x: "-1.0411119",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4681025",
+      x: "-1.0412406",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4682312",
+      x: "-1.0440296",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4681025",
+      x: "-1.0404682",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4679737",
+      x: "-1.0404254",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4681025",
+      x: "-1.0392239",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4704199",
+      x: "-1.0467758",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4711065",
+      x: "-1.0457889",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4724798",
+      x: "-1.0481059",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4738531",
+      x: "-1.0463896",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4744968",
+      x: "-1.0460463",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4774151",
+      x: "-1.0447591",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4775867",
+      x: "-1.0442012",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4779301",
+      x: "-1.0430856",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4819212",
+      x: "-1.043858",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4842386",
+      x: "-1.043858",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4818354",
+      x: "-1.0457031",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4771147",
+      x: "-1.0420129",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4763422",
+      x: "-1.0422704",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4752264",
+      x: "-1.0431286",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4753551",
+      x: "-1.0440725",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4737244",
+      x: "-1.0440296",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4726515",
+      x: "-1.0436005",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4714928",
+      x: "-1.0418842",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4741964",
+      x: "-1.0402537",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4745398",
+      x: "-1.0400392",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4759989",
+      x: "-1.0402537",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4776726",
+      x: "-1.039181",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4793463",
+      x: "-1.0399533",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4790888",
+      x: "-1.0396101",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4782305",
+      x: "-1.0371214",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4777155",
+      x: "-1.035448",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4772434",
+      x: "-1.0351905",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4772434",
+      x: "-1.0351905",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4754839",
+      x: "-1.0370785",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4735956",
+      x: "-1.0369498",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4738531",
+      x: "-1.0369498",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4741964",
+      x: "-1.03592",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4716644",
+      x: "-1.0386661",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.468017",
+      x: "-1.037679",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.467673",
+      x: "-1.037508",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.467201",
+      x: "-1.034976",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.467201",
+      x: "-1.034976",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.467588",
+      x: "-1.033689",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.467759",
+      x: "-1.032788",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.469991",
+      x: "-1.03326",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4702911",
+      x: "-1.0323586",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4706345",
+      x: "-1.0322298",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.471364",
+      x: "-1.0319295",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4717932",
+      x: "-1.0273812",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4730806",
+      x: "-1.0281965",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4725227",
+      x: "-1.0270379",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.470849",
+      x: "-1.0249783",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4742823",
+      x: "-1.0254932",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4742823",
+      x: "-1.0254932",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4733381",
+      x: "-1.0245063",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4733381",
+      x: "-1.0245063",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4730806",
+      x: "-1.0228329",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4710314",
+      x: "-1.0239271",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4702268",
+      x: "-1.0235409",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4701195",
+      x: "-1.0230796",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4698191",
+      x: "-1.0275528",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4694865",
+      x: "-1.0289152",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4693577",
+      x: "-1.0289366",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4696045",
+      x: "-1.0291941",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.469862",
+      x: "-1.029827",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4695401",
+      x: "-1.031007",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4693899",
+      x: "-1.031243",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4688427",
+      x: "-1.0303312",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4686818",
+      x: "-1.0300093",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4678986",
+      x: "-1.0304599",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4680595",
+      x: "-1.0304599",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4678986",
+      x: "-1.0300201",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4683492",
+      x: "-1.029355",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4687891",
+      x: "-1.0291941",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4689286",
+      x: "-1.0290868",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4680595",
+      x: "-1.0283037",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4662678",
+      x: "-1.0299772",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4673086",
+      x: "-1.0285719",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4677377",
+      x: "-1.0275957",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4673729",
+      x: "-1.0285934",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4667292",
+      x: "-1.0279283",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4666433",
+      x: "-1.0279605",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4665468",
+      x: "-1.0278961",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4664717",
+      x: "-1.0277996",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4671154",
+      x: "-1.0278425",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4678986",
+      x: "-1.0277781",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4676518",
+      x: "-1.0275743",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4682419",
+      x: "-1.0274241",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4687462",
+      x: "-1.027231",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4679093",
+      x: "-1.0265874",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4666541",
+      x: "-1.0266196",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4659567",
+      x: "-1.0264801",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4657314",
+      x: "-1.0258794",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4658494",
+      x: "-1.0257721",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.466418",
+      x: "-1.0256756",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4668794",
+      x: "-1.0253109",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4668901",
+      x: "-1.0247852",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4678771",
+      x: "-1.02515",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4666568",
+      x: "-1.0245707",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4666568",
+      x: "-1.0244929",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4666165",
+      x: "-1.0242945",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4660103",
+      x: "-1.0247101",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4660157",
+      x: "-1.0247423",
+      evento: "Robo_a_personas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4707417",
+      x: "-0.9830565",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4625664",
+      x: "-1.030299",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.462781",
+      x: "-1.0331309",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4625878",
+      x: "-1.0343645",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4627595",
+      x: "-1.0377543",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4518161",
+      x: "-1.025461",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4519341",
+      x: "-1.0253323",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4550025",
+      x: "-1.0306637",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4631457",
+      x: "-1.0045538",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4660211",
+      x: "-1.0060771",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4678664",
+      x: "-1.0168257",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4671583",
+      x: "-1.0162035",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4669008",
+      x: "-1.0136505",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4669223",
+      x: "-1.0125348",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4681454",
+      x: "-1.0135003",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4768143",
+      x: "-1.0143799",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4650018",
+      x: "-1.0221249",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.46527",
+      x: "-1.0220605",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4711387",
+      x: "-1.018231",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "La Valdramina",
+      y: "-79.4594121",
+      x: "-1.0235838",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4619656",
+      x: "-1.0224038",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4513226",
+      x: "-1.0172977",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4562793",
+      x: "-1.0103036",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4471168",
+      x: "-1.0137363",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4456577",
+      x: "-1.003052",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4727373",
+      x: "-1.0484063",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4798613",
+      x: "-1.0445874",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4774151",
+      x: "-1.0418413",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4757843",
+      x: "-1.0360916",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4691217",
+      x: "-1.02515",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4680274",
+      x: "-1.0303204",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4678879",
+      x: "-1.0303741",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4663429",
+      x: "-1.0301595",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4663751",
+      x: "-1.0287864",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4676518",
+      x: "-1.0275099",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4670081",
+      x: "-1.0277674",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4676089",
+      x: "-1.026995",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4659245",
+      x: "-1.0260296",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4658709",
+      x: "-1.0256541",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4655383",
+      x: "-1.025268",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4669759",
+      x: "-1.025461",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4661069",
+      x: "-1.0247531",
+      evento: "Robo_a_unidades_economicas"
+    },
+    {
+      sector: "Control",
+      y: "-79.4684887",
+      x: "-0.9945989",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "Control",
+      y: "-79.4713855",
+      x: "-0.9956932",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "Divino Niño",
+      y: "-79.4628775",
+      x: "-1.0409081",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "Galo Plaza",
+      y: "-79.4687462",
+      x: "-1.018113",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4619012",
+      x: "-1.0221249",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4619656",
+      x: "-1.0212667",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "La Merced",
+      y: "-79.4462586",
+      x: "-1.0075145",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4759989",
+      x: "-1.0402537",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4695401",
+      x: "-1.0258901",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4680595",
+      x: "-1.029473",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.468435",
+      x: "-1.029355",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4682419",
+      x: "-1.0287328",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4672978",
+      x: "-1.028647",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.467169",
+      x: "-1.0277566",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4678235",
+      x: "-1.0275528",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4686604",
+      x: "-1.0272632",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4687462",
+      x: "-1.027231",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4674909",
+      x: "-1.0266732",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4673622",
+      x: "-1.0266947",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4673514",
+      x: "-1.0262548",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4664824",
+      x: "-1.0270594",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    },
+    {
+      sector: "7 de Octubre",
+      y: "-79.4658709",
+      x: "-1.0261154",
+      evento: "Robo_de_bienes_accesorios_y_autopartes"
+    }
+  ]

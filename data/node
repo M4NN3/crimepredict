@@ -1,0 +1,141 @@
+
+
+const brain = require('brain');
+var net = new brain.NeuralNetwork({
+   // hiddenLayers: [128,64]
+});
+var data=[{input: [0, 0], output: [0]},  
+{input: [0, 1], output: [1]},
+{input: [1, 0], output: [1]},
+{input: [1, 1], output: [0]}];
+net.train(data, {
+    errorThresh: 0.005,  // error threshold to reach
+    iterations: 20000,   // maximum training iterations
+    log: true,           // console.log() progress periodically
+    logPeriod: 10,       // number of iterations between logging
+    learningRate: 0.3    // learning rate);
+})
+
+var output = net.run([1, 0]);
+
+//console.log(Math.round(output));
+console.log(output);
+
+
+
+const brain = require('brain');var net = new brain.NeuralNetwork();
+
+net.train([{input: { r: 0.03, g: 0.7, b: 0.5 }, output: { black: 1 }},
+           {input: { r: 0.16, g: 0.09, b: 0.2 }, output: { white: 1 }},
+           {input: { r: 0.5, g: 0.5, b: 1.0 }, output: { white: 1 }}]);
+
+var output = net.run({ r: 0.4, g: 1, b: 1 });  // { white: 0.99, black: 0.002 }
+
+//console.log(Math.round(output));
+console.log(output);
+
+
+const brain = require('brain');
+var net = new brain.NeuralNetwork();
+
+net.train(
+    [
+        {
+            input: { latitud: '-1.0123417515207804', longitd: '-79.46843504905702' },
+            output: { Muerte: 1 } },
+        { 
+            input: { latitud: '-1.0129355', longitd: '-79.46924507617952' },
+            output: { Robo: 1 } },
+        { 
+            input: { latitud: '-1.012157797458331', longitd: '-79.47011411190034' },
+            output: { Choque: 1 } },
+        {
+            input: { latitud: '-1.0126190653929172', longitd: '-79.47063446044923' },
+            output: { Muerte: 1 } },
+        { 
+            input: { latitud: '-1.0126887919354635', longitd: '-79.47100460529329' },
+            output: { Robo: 1 } 
+        }
+    ], {
+        errorThresh: 0.005,  // error threshold to reach
+        iterations: 20000,   // maximum training iterations
+        log: true,           // console.log() progress periodically
+        logPeriod: 10,       // number of iterations between logging
+        learningRate: 0.3    // learning rate);
+    })
+
+var output = net.run([-1.0121754805144487, -79.47028577327728]);
+console.log(output);
+
+
+
+var nada;
+
+//const brain = require('brain');
+var fs = require('fs');
+
+if (fs.existsSync("../data/eventos.json")) {
+    var dataNet = fs.readFileSync("../data/eventos.json", 'utf8');
+    var j = JSON.parse(dataNet);
+    nada.fromJSON(j);
+}
+console.log(nada[1].name);
+
+
+
+
+////////////////////
+
+for (var index = 0; index < crimes.length; index++) {
+      var ltd = crimes[index].x;
+      var lng = crimes[index].y;
+      var eve = crimes[index].evento;
+      var sector = crimes[index].Sector;
+      value = '"input"' + ': { "ltd": "' +ltd +'",' +
+              '"lng"' + ':"' +lng +'"},' +
+              '"output"' + ': {"' +eve +'": "1"}';
+      crimesTricks.push(JSON.parse("{"+value+"}"));
+    }
+  //ENTRENAR EL MODELO
+  net.train(crimesTricks, {
+      errorThresh: 0.005,  // error threshold to reach
+      iterations: 10000,   // maximum training iterations
+      //log: true,           // console.log() progress periodically
+      logPeriod: 10,       // number of iterations between logging
+      learningRate: 0.3    // learning rate);
+  })
+
+  net.train(crimesTricks, {
+      errorThresh: 0.05,  // error threshold to reach
+      iterations: 5000,   // maximum training iterations
+      log: true,           // console.log() progress periodically
+      logPeriod: 10,       // number of iterations between logging
+      learningRate: 0.3    // learning rate);
+  })
+
+  var output = net.run([-1.03666895, -79.45748728]);//<zona bellavista
+
+  console.log(output);
+
+  var robos=0;var arra=0;
+for (var i = 0; i < crimes.length; i++) {
+    
+    if (crimes[i].evento=="Robos") {
+        robos+=1;
+    }
+    else if (crimes[i].evento=="Arranchones") {
+        arra+=1;
+    }
+}
+
+/////////////////////
+
+  for (var i = 0; i < eventosReales.length; i++) {
+      
+      if (eventosReales[i].evento=="Robos") {
+          robos+=1;
+      }
+      else if (eventosReales[i].evento=="Arranchones") {
+          arra+=1;
+      }
+  }

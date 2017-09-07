@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" type="image/png" href="img/logo.png"/>		
+	<title>CrimePredict - UTEQ</title>
+	<!-- ALL CSS HERE -->
+	<link rel="stylesheet" href="css/bulma.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/Control.MiniMap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+	<!-- ALL SCRIPTS HERE -->
+	<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+	<script src="js/leaflet.markercluster.js"></script>
+</head>
+<body>
+	<section class="hero is-dark is-fullheight is-bold">
+		<div class="hero-head">
+			<header class="nav">
+				<div class="container">
+					<div class="nav-left">
+						<a href="#" class="nav-item">
+							<img src="img/logo.png" alt="Logo" class="logo">
+						</a>
+						<a href="index.html" class="nav-item">Crime Predict</a>
+					</div>
+					<div class="nav-toggle">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+
+					<div class="nav-right nav-menu">
+						<a href="#" class="nav-item is-active">Home</a>
+						<a href="clustering.html" target="" class="nav-item">Clustering</a>
+						<a href="predecir.html" class="nav-item">Predecir</a>
+						<a href="" class="nav-item">Documentación</a>
+						<span class="nav-item">
+							<a href="" target="_blank" class="button is-info is-inverted">
+								<span class="icon">
+									<i class="fa fa-lock "></i>
+								</span>
+								<span>CrimePredict</span>
+							</a>
+						</span>
+					</div>
+				</div>
+			</header>
+		</div>
+		<!-- CUERPO-->
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="columns">
+					<div class="column is-8">
+						<article class="tile is-child is-info is-bold notification">
+							<h1 class="title is-3">Crime Predict </h1>
+							<div id="map" style="height: 29em; color:black"></div>
+						</article>
+					</div>
+					<div class="column">
+						<article class="tile is-child is-light notification ">
+							<h1 class="label is-2">CrimePredict </h1>
+							<aside class="menu">
+								<p class="menu-label">
+									Administradores
+								</p>
+								<ul class="menu-list">
+									<li><a href="https://www.facebook.com/chikitika.alvaradofelix8" target="_blank">Sandra Alvarado</a></li>
+									<li><a href="https://www.facebook.com/andres.cedeno.39" target="_blank">Andrés Cedeño</a></li>
+									<li><a href="https://www.facebook.com/manne.rodriguez.3" target="_blank">Manne Rodríguez</a></li>
+									<li><a href="https://www.facebook.com/jefferson.villamil" target="_blank">Jefferson Villamil</a></li>
+									<li><a href="https://www.facebook.com/maicol.yanez.1" target="_blank">Michael Yánez</a></li>
+									<li><a href="https://www.facebook.com/IORIJOEL" target="_blank">Joel Zorrilla</a></li>
+								</ul>
+								<p class="menu-label">Tutor</p>
+								<ul class="menu-list">
+									<li> <a>Ing. Iván Jaramillo</a></li>
+								</ul>
+								<p class="menu-label">Carrera</p>
+								<ul class="menu-list">
+									<li> Ingeniería en Sistemas 7mo. Semestre</li>
+								</ul>
+							</aside>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<!-- FOOTER-->
+		<div class="hero-foot">
+	    <nav class="tabs is-boxed is-fullwidth">
+	      <div class="container">
+	        <ul>
+	          <li class="is-active"><a>Home</a></li>
+	          <li>
+	          	<a href="#">
+	          		<span class="icon">
+	          			<i class="fa fa-facebook-square"></i>
+	          		</span>
+	          		<span>Facebook</span>
+	          	</a>
+	          </li>
+	          <li>
+	          	<a href="#">
+	          		<span class="icon">
+	          			<i class="fa fa-twitter-square"></i>
+	          		</span>
+	          		<span>Twitter</span>
+	          	</a>
+	          </li>
+	          <li>
+	          	<a href="#">
+	          		<span class="icon">
+	          			<i class="fa fa-github-square"></i>
+	          		</span>
+	          		<span>GitHub</span>
+	          	</a>
+	          </li>
+	          <li>
+	          	<a href="http://uteq.edu.ec/" target="_blank">
+	          		<span class="icon">
+	          			<i class="fa fa-university"></i>
+	          		</span>
+	          		<span>UTEQ</span>
+	          	</a>
+	          </li>
+	        </ul>
+	      </div>
+	    </nav>
+	  </div>
+	</section>
+	<!--<script src="js/particles.js"></script>
+	<script src="data/app.js"></script>-->
+	<script src="js/Control.MiniMap.js"></script>
+	<script src="js/leafUTEQ.js"></script>
+	<!--<script>L.Wrld.map("map", "f0071d554a351ba8a54e6bb541ce05be");</script>-->
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" type="image/png" href="img/logo.png"/>	
+	<title>CrimePredict - Eventos en Clustering </title>
+	<!-- ALL CSS HERE -->
+	<link rel="stylesheet" href="css/bulma.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+	<link rel="stylesheet" href="css/leaflet-sidebar.css">
+    <link rel="stylesheet" href="css/MarkerCluster.css">
+	<link rel="stylesheet" href="css/MarkerCluster.Default.css">
+	<link rel="stylesheet" href="css/Control.MiniMap.css">
+	<!-- ALL SCRIPTS HERE -->
+	<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+	<script src="js/leaflet.markercluster.js"></script>
+	<script src="js/leaflet-sidebar.js"></script>
+	<script src="js/iconos.js"></script>
+	
+</head>
+<body>
+		<div id="sidebar" class="sidebar collapsed">
+				<!-- Nav tabs -->
+				<div class="sidebar-tabs">
+					<ul role="tablist">
+						<li><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
+						<li><a href="#profile" role="tab"><i class="fa fa-user"></i></a></li>
+						<li class="disabled"><a href="#messages" role="tab"><i class="fa fa-envelope"></i></a></li>
+						<li><a href="https://github.com/Turbo87/sidebar-v2" role="tab" target="_blank"><i class="fa fa-github"></i></a></li>
+					</ul>
+		
+					<ul role="tablist">
+						<li><a href="#settings" role="tab"><i class="fa fa-gear"></i></a></li>
+					</ul>
+				</div>
+		
+				<!-- Tab panes -->
+				<div class="sidebar-content">
+					<div class="sidebar-pane" id="home">
+						<h1 class="sidebar-header">
+							Clustering
+							<span class="sidebar-close"><i class="fa fa-caret-left"></i></span>
+						</h1>
+						<aside class="menu">
+							<p class="menu-label">
+								Explicación
+							</p>
+							<ul class="menu-list">
+								<li style="text-align: justify">Esta opción permite visualizar los eventos peligrosos agrupados por zonas
+										según los más cercanos. Al hacer zoom usted verá como los puntos se van distribuyendo
+									en nuevos mini-clusters y estos a su vez en otros más pequeños hasta llegar al punto marcado en el mapa</li>
+							</ul>
+							<p class="menu-label">
+								Leyenda
+							</p>
+							<ul class="menu-list">
+								<li><a href="#" target="" class="button is-danger is-inverted">
+										<span class="icon">
+											<i class="fa fa-square"></i>
+										</span>
+										<span>Nivel de peligrosidad Alto</span>
+									</a>
+								</li>
+								<li><a href="#" target="" class="button is-warning is-inverted">
+										<span class="icon">
+											<i class="fa fa-square"></i>
+										</span>
+										<span>Nivel de peligrosidad: Medio</span>
+									</a>
+								</li>
+								<li class="has-text-left"><a href="#" target="" class="button is-success is-inverted">
+										<span class="icon">
+											<i class="fa fa-square"></i>
+										</span>
+										<span>Nivel de peligrosidad: Bajo</span>
+									</a>
+								</li>
+								
+							</ul>
+							<p class="menu-label">Otras páginas</p>
+							<ul class="menu-list">
+								<li> <a href="index.html">Home</a></li>
+								<li> <a href="predecir.html">Predecir</a></li>
+								<li> <a href="documentación.html">Documentación</a></li>
+							</ul>
+						</aside>
+					</div>
+		
+					<div class="sidebar-pane" id="profile">
+						<h1 class="sidebar-header">Profile<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+					</div>
+		
+					<div class="sidebar-pane" id="messages">
+						<h1 class="sidebar-header">Messages<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+					</div>
+		
+					<div class="sidebar-pane" id="settings">
+						<h1 class="sidebar-header">Settings<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+					</div>
+				</div>
+			</div>
+		<section class="hero is-dark is-fullheight is-bold">
+				
+				<div class="hero-head">
+					<header class="nav">
+						<div class="container">
+							<div class="nav-left">
+								<a href="#" class="nav-item">
+									<img src="img/logo.png" alt="Logo" class="logo">
+								</a>
+								<a href="index.html" class="nav-item">Crime Predict</a>
+							</div>
+							<div class="nav-toggle">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+		
+							<div class="nav-right nav-menu">
+								<a href="index.html" class="nav-item">Home</a>
+								<a href="clustering.html" target="" class="nav-item is-active">Clustering</a>
+								<a href="predecir.html" class="nav-item">Predecir</a>
+								<a href="" class="nav-item">Documentación</a>
+								<span class="nav-item">
+									<a href="" target="_blank" class="button is-info is-inverted">
+										<span class="icon">
+											<i class="fa fa-lock "></i>
+										</span>
+										<span>CrimePredict</span>
+									</a>
+								</span>
+							</div>
+						</div>
+					</header>
+			<div id="map" style="height: 36.5rem; color: black;" class="sidebar-map"></div>
+		</div>
+		
+		
+	</section>
+
+	<!--<script src="data/eventos.json"></script>
+	<script src="js/eventos.js"></script>-->
+	<script src="js/Control.MiniMap.js"></script>
+	<script src="data/eventosReales.json"></script>
+	<script src="js/clustering.js"></script>
+</body>
+</html>
