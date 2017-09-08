@@ -16,6 +16,18 @@
 	<!-- ALL SCRIPTS HERE -->
 	<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
 	<script src="js/leaflet.markercluster.js"></script>
+
+	<style>
+		@media screen and (max-width: 768px) {
+			#menu-toggle:checked + .nav-menu {
+			display: block;
+			z-index: 2;
+			}
+		}
+		#map{
+			z-index: 1;
+		}
+	</style>
 </head>
 <body>
 	<section class="hero is-dark is-fullheight is-bold">
@@ -28,14 +40,14 @@
 						</a>
 						<a href="index.html" class="nav-item">Crime Predict</a>
 					</div>
-					<div class="nav-toggle">
+					<label for="menu-toggle" class="nav-toggle">
 						<span></span>
 						<span></span>
 						<span></span>
 						<span></span>
-					</div>
-
-					<div class="nav-right nav-menu">
+					</label>
+					<input type="checkbox" id="menu-toggle" class="is-hidden"/>
+					<div class="nav-right nav-menu topnav" id="myTopnav">
 						<a href="#" class="nav-item is-active">Home</a>
 						<a href="clustering.html" target="" class="nav-item">Clustering</a>
 						<a href="predecir.html" class="nav-item">Predecir</a>

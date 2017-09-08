@@ -22,6 +22,17 @@
 	<script src="js/leaflet-sidebar.js"></script>
 	<script src="js/iconos.js"></script>
 	
+	<style>
+			@media screen and (max-width: 768px) {
+				#menu-toggle:checked + .nav-menu {
+				display: block;
+				z-index: 2;
+				}
+			}
+			#map{
+				z-index: 1;
+			}
+		</style>
 </head>
 <body>
 		<div id="sidebar" class="sidebar collapsed">
@@ -31,7 +42,7 @@
 						<li><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
 						<li><a href="#profile" role="tab"><i class="fa fa-user"></i></a></li>
 						<li class="disabled"><a href="#messages" role="tab"><i class="fa fa-envelope"></i></a></li>
-						<li><a href="https://github.com/Turbo87/sidebar-v2" role="tab" target="_blank"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://github.com/M4NN3/crimepredict" role="tab" target="_blank"><i class="fa fa-github"></i></a></li>
 					</ul>
 		
 					<ul role="tablist">
@@ -115,13 +126,13 @@
 								</a>
 								<a href="index.html" class="nav-item">Crime Predict</a>
 							</div>
-							<div class="nav-toggle">
-								<span></span>
-								<span></span>
-								<span></span>
-								<span></span>
-							</div>
-		
+							<label for="menu-toggle" class="nav-toggle">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+								</label>
+								<input type="checkbox" id="menu-toggle" class="is-hidden"/>
 							<div class="nav-right nav-menu">
 								<a href="index.html" class="nav-item">Home</a>
 								<a href="clustering.html" target="" class="nav-item is-active">Clustering</a>

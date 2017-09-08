@@ -5412,10 +5412,18 @@ var indexRow = 1;
 $('#btnPredecir').click(function(){
     //$("#btnPredecir").addClass('is-loading');    
   latitude =document.getElementById('txtLat').value;   // latidud
-  latitude = Math.abs(latitude)
+  //latitude = Math.abs(latitude)
   longitude = document.getElementById('txtLng').value;
-  longitude= Math.abs(longitude);
+  //longitude= Math.abs(longitude);
+  
+  if (location == "" || longitude == "") {
+    $('#txtLat').attr("placeholder", "Ingrese un valor");
+    $('#txtLng').attr("placeholder", "Ingrese un valor");
+    $('#txtLat').removeClass( "is-info" ).addClass( "is-danger" );
+    $('#txtLng').removeClass( "is-info" ).addClass( "is-danger" );
     
+  }
+  else{
   //ENTRENAR EL MODELO
   if (creaModelo) {
       for (var index = 0; index < eventosReales.length; index++) {
@@ -5438,9 +5446,15 @@ $('#btnPredecir').click(function(){
     //creaModelo = false;
   }
 
-  var output = net.run({ltd: latitude, lng: longitude});//<zona bellavista
-
-  console.log(output, latitude, longitude);
+  var output = net.run(latitude, longitude);//<zona bellavista
+  //var output = net.run({lrd: latitude, lng: longitude});//<zona bellavista
+  var unie=0;
+  for (var index = 0; index < eventosReales.length; index++) {
+  if (eventosReales[index].evento == "Robo_a_unidades_economicas") {
+    unie+=1;
+  }
+}
+  console.log(output, latitude, longitude, "Robos a UE" + unie, Math.max.apply(Math,output));
   filasBody +="<tr> " +
               "<td>" + indexRow + "</td>" +
               "<td>" + Math.round(output.Robo_a_personas * 100) + "%</td>" +
@@ -5452,6 +5466,7 @@ $('#btnPredecir').click(function(){
               "</tr>" ;
   indexRow +=1;
   $('#eventosLog').html(filasBody);
+}
   //$("#btnPredecir").removeClass('is-loading');
 });
 

@@ -10,9 +10,11 @@ var resultad= $('#txtResultado');
  var ban=true;
  map.on('click', function(e){
     if (ban) {
+      $( "#txtLat" ).removeClass( "is-danger" ).addClass( "is-info" );
+      $( "#txtLng" ).removeClass( "is-danger" ).addClass( "is-info" );
     marker	= new L.marker(e.latlng,{draggable:true})  //o L.circle
-    	.bindPopup('Latitud: ' + e.latlng.lat.toString() + '<br>'+
-      	'Longitud: ' + e.latlng.lng.toString());
+    	.bindPopup('<b>Latitud: </b> ' + e.latlng.lat.toString() + '<br>'+
+      	'<b> Longitud: </b>' + e.latlng.lng.toString());
       	map.addLayer(marker);
     	lati.val((e.latlng.lat.toString()).substring(0,10));
       longi.val(e.latlng.lng.toString().substring(0,10)); // ó document.getElementById('log').value 

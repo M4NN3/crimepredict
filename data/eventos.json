@@ -1,0 +1,32 @@
+var facultades = [
+  {
+    "name":"Biblioteca",
+    "evento": "Muerte",
+    "lat":-1.0123417515207804,
+    "lng":-79.46843504905702
+  },
+  {
+    "name":"FCA",
+    "evento": "Robo",
+    "lat":-1.0129355,
+    "lng": -79.46924507617952
+  },
+  {
+    "name":"FCE",
+    "evento": "Choque",
+    "lat":-1.012157797458331,
+    "lng":-79.47011411190034
+  },
+  {
+    "name":"FCI",
+    "evento": "Muerte",
+    "lat":-1.0126190653929172,
+    "lng":-79.47063446044923
+  },
+  {
+    "name":"FCAmbientales",
+    "evento": "Robo",
+    "lat":-1.0126887919354635,
+    "lng":-79.47100460529329
+  }
+];
